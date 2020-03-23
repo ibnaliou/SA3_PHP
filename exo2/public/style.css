@@ -1,0 +1,37 @@
+form{
+    margin: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.form-control{
+    width: 480px;
+    padding: 10px;
+}
+
+.btn{
+    margin-left: 20px;
+    font-size: 1.2rem;
+    height: 40px;
+    width: 120px;
+}
+
+table{
+    margin: 30px;
+    width: 720px;
+    border-collapse: collapse;
+    background-color: #d3d3d3;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+table tr{
+    height: 45px;
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: #b9b9b9;
+}
